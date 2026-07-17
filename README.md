@@ -1,6 +1,3 @@
-**BEFORE READING THE MAIN SECTIONS:**
-this project depends on the following library "PopLib" (SexyAppBase for crossplatform and opensource).
-Please use the "match3template" folder to build this game, as that is where the assets can be added, modified, and source elements such as scripts, code and necessary things
-can be done.  
+Please use the dev branch of this repository, as that is where the following project can be found.
 
 
