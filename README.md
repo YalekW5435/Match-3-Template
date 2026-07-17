@@ -14,4 +14,4 @@ If you do wish to add on to this, please keep this to the dev branch in *this* r
 This is in no way designed to compete with Beyond Galaxies' Sci jewel, Ldinos' Dijeweled, or any other game listed for the suites of steam, etc.  The goal here is to keep things original, while still adding on elements and ideas shared across the community of PopCap.  
 
 I also wanted to keep thigns opensourced and free of charge, keeping this as a hobby.  
-
+This game is not functional yet.  As mentioned, make this as good as it can possibly be.  Let me know of any changes, and see what ideas you can come up with.
