@@ -1,8 +1,9 @@
-BEFORE READING THE MAIN SECTIONS: this project depends on the following library "PopLib" (SexyAppBase for crossplatform and opensource). Please use the "match3template" folder to build this game, as that is where the assets can be added, modified, and source elements such as scripts, code and necessary things can be done.
+--BEFORE READING THE MAIN SECTIONS:-- 
+this project depends on the following library "PopLib" (SexyAppBase for crossplatform and opensource). Please use the "match3template" folder to add your necessary files, as that is where the assets can be added, modified, and source elements such as scripts, code and necessary things can be done.
 This is the dev branch.  Recommended to use this before uploading releases to master.
 
 
-MAIN DESCRIPTION:
+--MAIN DESCRIPTION:--
 This was a project ive been wanting to tackle, or more specfically, *you* the end user to tackle.  This is supposed to be an open source tile-based match 3 game with original assets, including some modeled by Timmy Skwarchov, that I wish the end user, and the PopCap community, and more importantly, 2d platform gaming community to at most, program.  
 
 Think of this project as the linux kernel, but as a 2d platform game.  You are free to add your own assets, sounds, images, animations, whatever you wish.  
@@ -17,3 +18,6 @@ I also wanted to keep thigns opensourced and free of charge, keeping this as a h
 This game is not functional yet.  As mentioned, make this as good as it can possibly be.  Let me know of any changes, and see what ideas you can come up with.
 
 If there are any issues, please do add an issue.  its important to keep that in mind to squash bugs and other things.
+
+--Current Issues as of present:--
+You may have noticed that the build of match 3 template fails, but only on github.  That is fine, and normal for this type of repository.  Since this is techincally a fork of PopLib (but with the match3template folder), you will need to use this as the base, then start adding or changing stuff to the match3template folder. We are also fixing a discord RPC issue that was actually found by myself, and will be changing that in the near future to the current APIs to be put in PopLib.
