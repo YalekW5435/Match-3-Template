@@ -15,3 +15,5 @@ This is in no way designed to compete with Beyond Galaxies' Sci jewel, Ldinos' D
 
 I also wanted to keep thigns opensourced and free of charge, keeping this as a hobby.  
 This game is not functional yet.  As mentioned, make this as good as it can possibly be.  Let me know of any changes, and see what ideas you can come up with.
+
+If there are any issues, please do add an issue.  its important to keep that in mind to squash bugs and other things.
