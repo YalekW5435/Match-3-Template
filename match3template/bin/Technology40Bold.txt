@@ -1,0 +1,27 @@
+Define CharList
+ ( '0', '1', '2', '3', '4', '5', '6', '7', '8', '9');
+
+Define WidthList
+ (  24,   8,  24,  22,  24,  24,  24,  22,  24,  24);
+
+Define RectList
+ ( (   0,  0, 28, 49), (  29,  0, 13, 49), (  43,  0, 28, 49), (  72,  0, 27, 49),
+   ( 100,  0, 29, 49), ( 130,  0, 28, 49), ( 159,  0, 28, 49), ( 188,  0, 28, 49),
+   ( 217,  0, 28, 49), ( 246,  0, 28, 49));
+
+Define OffsetList
+ ( (-2, 0), (-3, 0), (-2, 0), (-3, 0), (-3, 0), (-2, 0), (-2, 0), (-4, 0),
+   (-2, 0), (-2, 0));
+
+CreateLayer               Main;
+LayerSetImage             Main 'Technology40Bold';
+LayerSetAscent            Main 43;
+LayerSetCharWidths        Main CharList WidthList;
+LayerSetCharWidths        Main (' ') (19);
+LayerSetImageMap          Main CharList RectList;
+LayerSetCharOffsets       Main CharList OffsetList;
+LayerSetAscentPadding     Main 0;
+LayerSetLineSpacingOffset Main 0;
+LayerSetPointSize         Main 40;
+
+SetDefaultPointSize  40;

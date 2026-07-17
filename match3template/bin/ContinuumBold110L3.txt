@@ -1,0 +1,27 @@
+Define CharList
+ ( '0', '1', '2', '3', '4', '5', '6', '7', '8', '9');
+
+Define WidthList
+ (  87,  87,  87,  87,  87,  87,  87,  87,  87,  87);
+
+Define RectList
+ ( (   0,  0, 88,183), (  89,  0, 38,183), ( 128,  0, 83,183), ( 212,  0, 83,183),
+   ( 296,  0, 87,183), ( 384,  0, 82,183), ( 467,  0, 89,183), ( 557,  0, 85,183),
+   ( 643,  0, 89,183), ( 733,  0, 89,183));
+
+Define OffsetList
+ ( (-1, 0), (24, 0), ( 2, 0), ( 2, 0), (-2, 0), ( 2, 0), (-1, 0), ( 1, 0),
+   (-1, 0), (-1, 0));
+
+CreateLayer               Main;
+LayerSetImage             Main 'ContinuumBold110L3';
+LayerSetAscent            Main 149;
+LayerSetCharWidths        Main CharList WidthList;
+LayerSetCharWidths        Main (' ') (41);
+LayerSetImageMap          Main CharList RectList;
+LayerSetCharOffsets       Main CharList OffsetList;
+LayerSetAscentPadding     Main 0;
+LayerSetLineSpacingOffset Main 0;
+LayerSetPointSize         Main 110;
+
+SetDefaultPointSize  110;

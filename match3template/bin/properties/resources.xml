@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+
+<ResourceManifest>
+	<Resources id="Main">
+		<Image id="LoadDock" path="LoadingDock.png"/>
+		<Image id="LoadArc" path="LoaderArc.png"/>
+		<Image id="LoadingProgressImageRect" path="LoadProgressRect.png"/>
+		<Image id="MenuBackground" path="MainBackground.png"/>
+		<Image id="LoadingBeam" path="beam.png"/>
+		<Image id="TheLaserBeam" path ="LaserBeam.png" />
+		<Image id="Menu" path="GameMenuUI.png"/>
+		<Image id="score1" path="ScorePod1.png"/>
+		<Image id="score2" path="ScorePod2.png"/>
+		<Image id="ButtonPod1" path="Pod1.png"/>
+		<Image id="ButtonPod2" path="Pod2.png"/>
+		<Image id="ButtonPod3" path="Pod3.png"/>
+		<Image id="ButtonPod4" path="Pod4.png"/>
+		<Image id="ButtonPod5" path="Pod5.png"/>
+		<Image id="GridSurface" path="board_regular.png" />
+		<Image id="Amber" path="Amber_5120x256.png"/>
+		<Image id="Emerald" path="Emerald_5120x256.png"/>
+        <Image id="Ruby" path="Ruby_5120x256.png"/>
+		<Image id="Sapphire" path="Sapphire_5120x256.png"/>
+		<Image id="Topaz" path="Topaz_5120x256.png"/>
+		<Image id="Violet" path="Violet_5120x256.png"/>
+		<Image id="White" path="White_5120x256.png"/>
+		<Font id="TotalScoreFont" path="Technology40Bold.txt"/>
+		<Font id="UIFont" path="ContinuumBold50Bold.txt"/>
+		<Font id="BoardScoreFontL1" path="ContinuumBold110L1.txt"/>
+		<Font id="BoardScoreFontL2" path="ContinuumBold110L2.txt"/>
+		<Font id="BoardScoreFontL3" path="ContinuumBold110L3.txt"/>
+	</Resources>
+</ResourceManifest>
+
